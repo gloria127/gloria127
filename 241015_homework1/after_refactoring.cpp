@@ -9,7 +9,7 @@ int main() {
         arr[i] = std::rand() % 20; 
     }
 
-    std::cout << "Cãåíåğèğîâàííûå ñëó÷àéíûå ÷èñëà:" << std::endl;
+    std::cout << "CĞ³ĞµĞ½ĞµÑ€Ğ¸Ñ€Ğ¾Ğ²Ğ°Ğ½Ğ½Ñ‹Ğµ ÑĞ»ÑƒÑ‡Ğ°Ğ¹Ğ½Ñ‹Ğµ Ñ‡Ğ¸ÑĞ»Ğ°:" << std::endl;
     for (int i = 0; i < size; i++) {
         std::cout << arr[i] << ' ';
     }
@@ -21,7 +21,7 @@ int main() {
         arr[size - 1 - i] = temp;
     }
 
-    std::cout << "Ïåğåâåğíóòûå ÷èñëà:" << std::endl;
+    std::cout << "Ñ•ĞµÑ€ĞµĞ²ĞµÑ€Ğ½ÑƒÑ‚Ñ‹Ğµ Ñ‡Ğ¸ÑĞ»Ğ°:" << std::endl;
     for (int i = 0; i < size; i++) {
         std::cout << arr[i] << ' ';
     }
@@ -29,3 +29,4 @@ int main() {
 
     return 0;
 }
+
